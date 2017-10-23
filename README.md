@@ -8,4 +8,4 @@
 
 *Imagen de Referencia*
 
-![imagen](../assets/img/referencia.jpg)
+![imagen](/assets/img/referencia.jpg)

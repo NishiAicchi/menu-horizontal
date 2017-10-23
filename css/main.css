@@ -6,6 +6,13 @@
     overflow: auto; /*con este atributo podemos recortar el bloque para se muestre el contenido deseado*/
 }
 
+p {
+    font-family: 'Arial', sans-serif;
+    /*tipo de fuente ultilizada*/
+    font-size: 24px;
+    /*asignando tamaño de fuente*/
+}
+
 li {
     /*display: inline;*/
     float: left; /*le indicamos que los elementos de linea se muevan a la izquierda*/

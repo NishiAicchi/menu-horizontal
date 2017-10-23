@@ -1,30 +1,30 @@
-#sidebar {
+#sidebar { /*etiqueta contenedora*/
     padding: 0;
     margin: 0;
     background-color: black;
     line-height: 40px;
-    overflow: auto;
+    overflow: auto; /*con este atributo podemos recortar el bloque para se muestre el contenido deseado*/
 }
 
 li {
     /*display: inline;*/
-    float: left;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    list-style: none;
-    font-family: 'Arial', sans-serif;
-    font-size: 12px;
+    float: left; /*le indicamos que los elementos de linea se muevan a la izquierda*/
+    width: 100px; /*qncho asignado*/
+    height: 40px; /*alto asignado*/
+    text-align: center; /*posicion del texto*/
+    list-style: none; /*quitandole los iconos de listado*/
+    font-family: 'Arial', sans-serif;/*tipo de fuente ultilizada*/
+    font-size: 12px;/*asignando tamaño de fuente*/
 }
 
 a {
-    display: block;
-    text-decoration: none;   
+    display: block;/*convertimos la etiqueta a en un elemento de bloque*/
+    text-decoration: none;/*le quitamos el subrayado a los enlaces*/
     height: 40px; 
-    color: white;
+    color: white; /*aplicamos color al texto*/
 }
 
-a:hover {
+a:hover {/*creamos un efecto: al pasar el cursor cambiara el color de fondo y el color del texto*/
     background-color: gold;
     color: black;
 }
